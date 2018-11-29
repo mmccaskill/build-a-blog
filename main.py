@@ -21,7 +21,6 @@ class Blog(db.Model):
         self.title = title
         self.content = content
 
-
 @app.route("/")
 def index():
     return redirect('/blog')
